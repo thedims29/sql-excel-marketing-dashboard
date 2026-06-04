@@ -70,7 +70,7 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 * **Tujuan:** Melihat perbandingan langsung antara modal iklan yang keluar dengan omset yang didapat.
 * **Insight:** *Flash Sale 11.11* dan *Flash Sale 9.9* menjadi mesin pencetak uang utama perusahaan. Meskipun biaya iklannya relatif kecil dibandingkan *Brand Awareness Q3*, pendapatan yang dihasilkan justru melesat sangat tinggi.
 
-![Campaign Performance Spend vs Revenue](Campaign Performance Spend vs Revenue.png)
+<img width="922" height="558" alt="Campaign Performance Spend vs Revenue" src="https://github.com/user-attachments/assets/ee86093c-3a02-4d38-91d1-a46cf2f0f8e5" />
 
 ---
 
@@ -78,7 +78,7 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 * **Tujuan:** Mengukur efisiensi pengembalian dana dari setiap rupiah yang diinvestasikan pada iklan.
 * **Insight:** Dua *campaign* berstatus **Star** memimpin efisiensi biaya, yaitu *Flash Sale 11.11* (ROAS **13.66x**) dan *Flash Sale 9.9* (ROAS **12.16x**). Di sisi lain, *Launch Jamu Kunyit* berada di batas kritis **Break Even (ROAS 1.00x)**—artinya, modal dan omset seimbang (tidak untung, tidak rugi).
 
-![Campaign Efficiency Return on Ad Spend](Campaign Efficiency Return on Ad Spend (ROAS).png)
+<img width="964" height="556" alt="Campaign Efficiency Return on Ad Spend (ROAS)" src="https://github.com/user-attachments/assets/52f6460b-2fe9-487a-bffa-6a5afd31bb4e" />
 
 ---
 
@@ -86,7 +86,7 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 * **Tujuan:** Mengukur seberapa menarik visual, teks, dan *copywriting* iklan di mata audiens.
 * **Insight:** Grafik garis menunjukkan bahwa minat tertinggi audiens berada pada momen *Flash Sale 9.9* (**6.30%**) dan *11.11* (**6.25%**). Namun, ada temuan menarik pada *Launch Jamu Kunyit*: nilai CTR-nya cukup kompetitif (**3.36%**), yang berarti orang-orang sebenarnya tertarik untuk mengklik iklan tersebut, tetapi performa akhirnya (ROAS) buruk.
 
-![Audience Interest Click Through Rate](Audience Interest Click Through Rate.png)
+<img width="917" height="498" alt="Audience Interest Click Through Rate" src="https://github.com/user-attachments/assets/f37ba75b-212d-4b91-a507-de79f72f1843" />
 
 ---
 
@@ -94,7 +94,7 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 * **Tujuan:** Mengevaluasi efektivitas halaman penjualan (*landing page*) dalam mengubah klik menjadi transaksi riil.
 * **Insight:** Menjawab keanehan pada produk *Jamu Kunyit* tadi, grafik konversinya berada di angka **3.63%** (cukup oke), namun karena nilai penjualannya kecil, dia tetap berada di zona *Break Even*. Sementara itu, *Brand Awareness Q3* mencatat konversi terendah (**1.38%**), hal ini wajar karena tujuan utamanya adalah mengenalkan *brand*, bukan mengejar penjualan langsung (*hard-selling*).
 
-![Purchase Optimization Conversion Rate](Purchase Optimization Conversion Rate.png)
+<img width="964" height="527" alt="Purchase Optimization Conversion Rate" src="https://github.com/user-attachments/assets/94ca0b63-f7aa-49fe-be85-efd703363d96" />
 
 ---
 
