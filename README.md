@@ -116,7 +116,7 @@ Ini dia hasil dashboard Excel yang berhasil saya buat beserta catatan analisis s
  
 ---
 
-## 💡 Data-Driven Business Recommendations
+## 💡 Opini & Saran Recommendasi untuk Bisnis
 Berdasarkan hasil dashboard di atas, rekomendasi strategis yang saya berikan kepada tim manajemen adalah:
 
 1. **Scale-Up Budget:** Naikkan alokasi dana iklan untuk *campaign* bertema *Flash Sale* pada kuartal berikutnya karena terbukti menghasilkan ROAS di atas 12x.
