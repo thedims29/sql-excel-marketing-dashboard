@@ -98,6 +98,21 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 
 ---
 
+### 🏷️ E. Campaign Status Classification (Kategori Performa)
+* **Tujuan:** Mengelompokkan tingkat keberhasilan *campaign* berdasarkan efisiensi biaya (ROAS) untuk melihat kontribusi dan kesehatan portofolio iklan secara keseluruhan.
+* **Insight:** Menggunakan grafik lingkaran (*Pie Chart*), kita bisa melihat visualisasi distribusi performa dan kontribusi persentase dari 8 *campaign* aktif perusahaan:
+
+<img width="841" height="498" alt="Campaign Distribution by Performance Status" src="https://github.com/user-attachments/assets/c7bece8a-b8e7-449e-8968-9330aa0858f2" />
+
+
+* **Analisis & Interpretasi Bisnis:**
+  * **Kategori Profitable (38%):** Menjadi porsi terbesar dalam portofolio iklan saat ini (3 dari 8 *campaign*). Ini menandakan mayoritas iklan berjalan stabil dan konsisten menghasilkan keuntungan di atas biaya operasionalnya.
+  * **Kategori Star (37%):** Menyumbang kontribusi yang hampir setara besar dengan kategori *Profitable* (3 dari 8 *campaign*). Kelompok ini adalah penggerak pertumbuhan bisnis utama dengan tingkat pengembalian investasi (ROAS) tertinggi.
+  * **Kategori Break Even (25%):** Sebanyak 2 *campaign* berada di posisi balik modal (tidak untung, tidak rugi). Meskipun skalanya paling kecil dalam distribusi kue, kelompok inilah yang menjadi fokus utama tim manajemen untuk segera diaudit kinerjanya.
+  * **Kategori Needs Review (0%):** Tidak ada satu pun *campaign* yang menyentuh zona merah, membuktikan bahwa strategi eksekusi tim pemasaran sangat aman dan terukur.
+ 
+---
+
 ## 💡 Data-Driven Business Recommendations
 Berdasarkan hasil dashboard di atas, rekomendasi strategis yang saya berikan kepada tim manajemen adalah:
 
