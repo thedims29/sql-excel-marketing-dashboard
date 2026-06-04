@@ -70,7 +70,7 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 * **Tujuan:** Melihat perbandingan langsung antara modal iklan yang keluar dengan omset yang didapat.
 * **Insight:** *Flash Sale 11.11* dan *Flash Sale 9.9* menjadi mesin pencetak uang utama perusahaan. Meskipun biaya iklannya relatif kecil dibandingkan *Brand Awareness Q3*, pendapatan yang dihasilkan justru melesat sangat tinggi.
 
-![Campaign Performance Spend vs Revenue](Campaign Performance: Spend vs Revenue.png)
+(Campaign Performance: Spend vs Revenue.png)
 
 ---
 
