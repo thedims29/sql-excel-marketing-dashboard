@@ -1,31 +1,31 @@
-# 📊 Digital Marketing Campaign Automation & Performance Dashboard
+# 📊 Dokumentasi Belajar: Otomatisasi Report Iklan Pakai SQL & Excel
 
-## 📌 Project Overview
-Proyek ini menyelesaikan masalah klasik di tim marketing: **lambatnya proses penarikan data mentah harian menjadi laporan siap pakai untuk rapat mingguan**. 
+## 📌 Tentang Proyek Ini
+Proyek ini adalah hasil praktik langsung (*hands-on project*) saya waktu belajar mengolah data di **ngulikdata.com**. Di sini, saya mencoba mensimulasikan studi kasus nyata yang sering dihadapi oleh tim marketing: **lambatnya rekap data iklan harian buat bahan meeting hari Senin**.
 
-Di sini, saya berperan sebagai Data Analyst yang mengotomatisasi seluruh proses tersebut. Mulai dari mengekstrak data mentah dari database menggunakan **SQL (Advanced CTE)**, mengolah metrik bisnis krusial, hingga menyajikannya ke dalam **Executive Dashboard di Microsoft Excel** untuk menghasilkan rekomendasi taktis berbasis data bagi manajemen.
+Di proyek latihan ini, saya belajar bertindak sebagai "Data Analyst" magang yang bertugas membereskan masalah tersebut. Saya belajar cara menarik data mentah dari database pakai **SQL**, menghitung metrik bisnis, lalu memindahkannya ke **Microsoft Excel** biar jadi grafik dashboard yang gampang dibaca orang awam.
 
-*   **Tools Used:** SQL (PostgreSQL), Microsoft Excel.
-*   **SQL Core Concepts:** Common Table Expressions (CTE), Data Aggregation (`SUM`), Logical Conditional (`CASE WHEN`), Error Handling (`NULLIF`).
-*   **Excel Dashboard Techniques:** Custom Number Formatting (`0,00"%"`), Multi-Type Visualizations (Combo, Bar, Line, Column charts), Executive Report Styling.
+* **Tools yang Saya Gunakan:** SQL (PostgreSQL), Microsoft Excel.
+* **Materi SQL yang Saya Praktikkan:** Common Table Expressions (CTE), Agregasi (`SUM`), Logika Pengondisian (`CASE WHEN`), dan cara mencegah error pembagian nol (`NULLIF`).
+* **Materi Excel yang Saya Praktikkan:** Custom Number Formatting (`0,00"%"`), Bikin berbagai macam grafik (Combo, Bar, Line, Column, Pie Chart), dan merapikan tampilan visual laporan.
 
 ---
 
-## 🚀 The STAR Breakdown
+## 🚀 Alur Pengerjaan (Metode STAR)
 
-### 1. Situation (Situasi)
-Setiap hari Senin pagi, tim marketing mengadakan *Weekly Meeting* untuk meninjau performa iklan. Namun, data performa taktis (biaya iklan, pendapatan, jumlah klik, impresi, dan konversi) masih berupa data mentah harian (*daily metrics*) yang terpisah-pisah di database. Proses rekapitulasi manual memakan waktu lama dan rentan salah hitung (*human error*), sehingga menghambat pengambilan keputusan cepat.
+### 1. Situation (Masalah yang Dicoba Diselesaikan)
+Ceritanya, setiap hari Senin pagi tim marketing harus rapat buat mengecek performa iklan minggu lalu. Masalahnya, data penting seperti biaya iklan, omset, jumlah klik, dan impresi masih berbentuk data mentah harian yang terpisah-pisah di database. Kalau harus rekap manual satu-satu setiap minggu pasti lama banget dan rawan salah hitung.
 
-### 2. Task (Tugas)
-Saya ditugaskan untuk membuat sebuah sistem pelaporan otomatis yang bisa:
-1. Menghitung metrik performa utama secara presisi: **ROAS (Return on Ad Spend)**, **CTR (Click-Through Rate)**, dan **Conversion Rate**.
-2. Mengklasifikasikan status keberhasilan tiap *campaign* (Star, Profitable, Break Even, Needs Review).
-3. Menyajikan visualisasi data yang interaktif dan mudah dipahami oleh *C-Level Executives* dalam waktu singkat.
+### 2. Task (Apa Saja yang Harus Saya Buat)
+Di sini saya ditantang untuk bikin laporan otomatis yang bisa:
+1. Menghitung metrik penting iklan secara pas: **ROAS (Return on Ad Spend)**, **CTR (Click-Through Rate)**, dan **Conversion Rate**.
+2. Mengelompokkan status iklan otomatis (Iklan yang sukses banget, menguntungkan, atau balik modal doang).
+3. Menampilkan semua data itu dalam bentuk grafik di Excel yang beres dibaca kurang dari 1 menit.
 
-### 3. Action (Aksi)
+### 3. Action (Langkah-Langkah yang Saya Lakukan)
 
-#### **Tahap 1: Data Extraction & Metrik Engineering (SQL)**
-Saya merancang query terstruktur menggunakan dua tingkat **Common Table Expressions (CTE)** untuk memastikan kode tetap bersih dan efisien (waktu eksekusi hanya **5ms**):
+#### **Langkah 1: Narik dan Olah Data Pakai SQL**
+Saya menyusun query SQL menggunakan teknik dua tingkat **CTE (Common Table Expressions)** biar kodenya rapi, gampang dibaca, dan jalannya cepet banget (waktu eksekusi cuma **5ms**):
 
 ```sql
 WITH campaign_metrics AS (
@@ -62,9 +62,12 @@ SELECT * FROM campaign_report ORDER BY roas DESC;
 
 ```
 
-## 📈 4. Result: Data Visualizations & Deep-Dive Insights
+#### **Langkah 2: Bikin Visualisasi & Dashboard di Excel**
+Data matang hasil query SQL di atas saya copy ke Microsoft Excel. Di Excel, saya belajar merapikan format angka desimal menjadi format mata uang lokal (Rp) dan persentase (%) pakai trik Custom Format 0,00"%". Setelah datanya rapi, baru deh saya ubah jadi 5 bentuk grafik yang berbeda sesuai kebutuhan analisisnya.  
 
-Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibangun:
+## 📈 4. Result: Hasil Grafik & Catatan Analisis Saya
+
+Ini dia hasil dashboard Excel yang berhasil saya buat beserta catatan analisis sederhana versi saya::
 
 ### A. Campaign Performance: Spend vs Revenue
 * **Tujuan:** Melihat perbandingan langsung antara modal iklan yang keluar dengan omset yang didapat.
