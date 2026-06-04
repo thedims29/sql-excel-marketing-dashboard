@@ -86,7 +86,7 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 * **Tujuan:** Mengukur seberapa menarik visual, teks, dan *copywriting* iklan di mata audiens.
 * **Insight:** Grafik garis menunjukkan bahwa minat tertinggi audiens berada pada momen *Flash Sale 9.9* (**6.30%**) dan *11.11* (**6.25%**). Namun, ada temuan menarik pada *Launch Jamu Kunyit*: nilai CTR-nya cukup kompetitif (**3.36%**), yang berarti orang-orang sebenarnya tertarik untuk mengklik iklan tersebut, tetapi performa akhirnya (ROAS) buruk.
 
-![Audience Interest Click Through Rate](Audience Interest: Click-Through Rate.png)
+![Audience Interest Click Through Rate](Audience Interest Click Through Rate.png)
 
 ---
 
