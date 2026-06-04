@@ -70,7 +70,7 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 * **Tujuan:** Melihat perbandingan langsung antara modal iklan yang keluar dengan omset yang didapat.
 * **Insight:** *Flash Sale 11.11* dan *Flash Sale 9.9* menjadi mesin pencetak uang utama perusahaan. Meskipun biaya iklannya relatif kecil dibandingkan *Brand Awareness Q3*, pendapatan yang dihasilkan justru melesat sangat tinggi.
 
-(Campaign Performance: Spend vs Revenue.png)
+![Campaign Performance Spend vs Revenue](Campaign Performance Spend vs Revenue.png)
 
 ---
 
@@ -78,7 +78,7 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 * **Tujuan:** Mengukur efisiensi pengembalian dana dari setiap rupiah yang diinvestasikan pada iklan.
 * **Insight:** Dua *campaign* berstatus **Star** memimpin efisiensi biaya, yaitu *Flash Sale 11.11* (ROAS **13.66x**) dan *Flash Sale 9.9* (ROAS **12.16x**). Di sisi lain, *Launch Jamu Kunyit* berada di batas kritis **Break Even (ROAS 1.00x)**—artinya, modal dan omset seimbang (tidak untung, tidak rugi).
 
-![Campaign Efficiency Return on Ad Spend](Campaign Efficiency: Return on Ad Spend (ROAS).png)
+![Campaign Efficiency Return on Ad Spend](Campaign Efficiency Return on Ad Spend (ROAS).png)
 
 ---
 
@@ -94,7 +94,7 @@ Berikut adalah hasil analisis mendalam dari dashboard yang telah berhasil dibang
 * **Tujuan:** Mengevaluasi efektivitas halaman penjualan (*landing page*) dalam mengubah klik menjadi transaksi riil.
 * **Insight:** Menjawab keanehan pada produk *Jamu Kunyit* tadi, grafik konversinya berada di angka **3.63%** (cukup oke), namun karena nilai penjualannya kecil, dia tetap berada di zona *Break Even*. Sementara itu, *Brand Awareness Q3* mencatat konversi terendah (**1.38%**), hal ini wajar karena tujuan utamanya adalah mengenalkan *brand*, bukan mengejar penjualan langsung (*hard-selling*).
 
-![Purchase Optimization Conversion Rate](Purchase Optimization: Conversion Rate.png)
+![Purchase Optimization Conversion Rate](Purchase Optimization Conversion Rate.png)
 
 ---
 
